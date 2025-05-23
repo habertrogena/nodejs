@@ -1,3 +1,4 @@
 const firstModule = require("./first-module");
 
-console.log(firstModule.add(10,20));
+
+console.log(firstModule.divide(10,0));

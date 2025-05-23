@@ -7,7 +7,7 @@ function subtract(a, b) {
 }
 
 function divide(a,b){
-    if(b==0){
+    if(b===0){
         throw new Error('divide by zero is not allowed')
     }
     return a/b;
